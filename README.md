@@ -1,8 +1,45 @@
-# React + Vite
+# Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todo application built with React and a mock API. The project demonstrates the use of various React hooks and provides a basic interface for managing a list of tasks.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+The Todo application allows users to add, delete, and mark tasks as completed. It uses a mock API to simulate server interactions and various React hooks for state and effect management.
+
+## Features
+
+- Add new tasks
+- Delete existing tasks
+- Mark tasks as completed
+- Filter tasks by status (all, active, completed)
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces
+- Mock API: Used to simulate server interactions
+- React Hooks: For managing state and side effects
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+You need to have `node` and `npm` installed. You can follow the instructions [here](https://nodejs.org/) to install them.
+
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/your-username/todo-application.git
