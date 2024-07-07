@@ -1,3 +1,5 @@
+<img src="https://images.ctfassets.net/lpvian6u6i39/GtD3qzHrBIgVZJNIJBlO0/8610e2883df2dec28305841aa1ddd2ae/todo-app.png" alt="todo app photo"  />
+
 # Todo Application
 
 This is a simple Todo application built with React and a mock API. The project demonstrates the use of various React hooks and provides a basic interface for managing a list of tasks.
