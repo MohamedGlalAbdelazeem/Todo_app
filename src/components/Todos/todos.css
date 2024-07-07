@@ -1,0 +1,86 @@
+.get-todos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.get-todos h2{
+    font-size: 30px;
+}
+.get-todos form {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.get-todos form input{
+    width:100%;
+    font-size: 25px;
+}
+.get-todos form button{
+   font-size: 20px;
+   cursor: pointer;
+   background-color: rgb(6, 121, 19);
+   border: none;
+   color: white;
+}
+ 
+.todos-list{
+    width: 100%;
+}
+.todo-item{
+    width: 60%;
+    margin: 1rem auto;
+    background-color: rgba(0, 128, 0, 0.335);
+    padding: 3px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+.todo-item .icons{
+    font-size: 30px;
+    margin: 3px;
+}
+.todo-item .icons i{
+    margin: 5px;
+    cursor: pointer;
+}
+.todo-item .icons i:first-child{
+     color: red;
+}
+.todo-item .icons i:nth-child(2){
+    color:green;
+}
+ 
+.todo-item .icons i:hover{
+    opacity: 0.2;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: red;
+    font-size: 30px;
+  }
+  .filter-buttons {
+    margin: 10px 0;
+  }
+  
+  .filter-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #ddd;
+  }
+  
+  .filter-buttons button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
